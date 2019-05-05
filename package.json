@@ -1,8 +1,8 @@
 {
-  "name": "simple-web-development-skeleton",
+  "name": "skeleton-ml",
   "version": "1.0.0",
-  "description": "For a quick simple web development",
-  "main": "index.js",
+  "description": "Getting your p5 complex project started",
+  "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
