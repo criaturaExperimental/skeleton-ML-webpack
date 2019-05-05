@@ -1,11 +1,14 @@
-# Quick simple web development skeleton :skull:
+# Skeleton for program complex p5 projects :rocket:
 
-Small app for fast wireframing and html layout starting point.
+A starting point for your more complex p5 projects
 
 ## How to get it started
 
 Just run
 
-    npm install && npm start
+    yarn && npm start
 
-and start developing in [/src/app.js](/src/app.js)
+and start developing in [/src/sketch.js](/src/sketch.js)
+
+## Over-engenieering blame
+[Simple web development skeleton](https://github.com/criaturaExperimental/simple-web-development-skeleton)
