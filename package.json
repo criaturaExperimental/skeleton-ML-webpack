@@ -1,0 +1,42 @@
+{
+  "name": "simple-web-development-skeleton",
+  "version": "1.0.0",
+  "description": "For a quick simple web development",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "jest --watch"
+  },
+  "keywords": [
+    "development",
+    "javascript",
+    "boilerplate",
+    "webpack"
+  ],
+  "author": "Lucas deGomez",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^1.0.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.7.1",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js", "jsx"],
+    "moduleDirectories": ["node_modules", "shared"],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less|scss)$": "identity-obj-proxy"
+    }
+  }
+}
