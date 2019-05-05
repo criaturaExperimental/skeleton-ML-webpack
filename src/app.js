@@ -1,7 +1,18 @@
-import '../src/styles/main.scss'
+import '../src/styles/main.scss';
+import p5 from 'p5';
 
-function sum(a, b) {
-  return a + b;
+const sketch = p => {
+
+  p.setup = () => {
+    p.createCanvas(400, 400);
+  }
+
+  p.draw = () => {
+    p.background(220);
+    p.fill(0);
+    p.textSize(32);
+    p.text('Hello p.world!', 10, 30);
+  }
 }
 
-module.exports = sum;
+new p5(sketch);
